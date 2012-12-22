@@ -1,0 +1,26 @@
+<GROUPS>
+  <GROUP name="2D Elements">
+     <OPER baseclass="Track" buttonimg="jadeObj.gif">
+        <OPTION classname ="Track" />
+	    <OPTION classname = "LinearTrack" />
+     </OPER>
+     <OPER baseclass="PaintedSprite" buttonimg="jadeObj.gif">
+        <OPTION classname="PaintedSprite" />
+     </OPER>
+     <OPER baseclass="PaintedImage" buttonimg="jadeObj.gif">
+        <OPTION classname="PaintedImage" />
+     </OPER>
+     <OPER baseclass="Waypoint" buttonimg="jadeObj.gif">
+     	<OPTION classname="Waypoint"></OPTION>
+     	<OPTION classname="PointBag"></OPTION>
+     </OPER>
+     <OPER baseclass="PaintedRectangle" buttonimg="jadeObj.gif">
+        <OPTION classname="PaintedRectangle" />
+        <OPTION classname="BeveledRectangle" />
+        <OPTION classname="PaintedRegularShape" />
+     </OPER>
+     <OPER baseclass="PaintedLabel" buttonimg="jadeObj.gif">
+        <OPTION classname="PaintedLabel" />
+     </OPER>   
+  </GROUP>
+</GROUPS>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="GROUPS">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="GROUP" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="GROUP">
+  <xs:complexType>
+    <xs:sequence>   
+      <xs:element name="OPER" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" />
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="OPER">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="OPTION" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="baseclass" type="xs:string" />
+    <xs:attribute name="buttonimg" type="xs:string" />
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="OPTION">
+  <xs:complexType>
+    <xs:attribute name="classname" type="xs:string" />
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>
